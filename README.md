@@ -21,9 +21,9 @@ very fast to both create and decode. It provides a simple way to identify grid
 coordinates, and is useful for local spatial reasoning.
 
 To build a minimal spatial query structure, you can simply build a
-`Dictionary<int, object[]>` (32-bit) or `Dictionary<long, object[]>`, where the
-key stores a 3D tick mark hash. You can then sample points freely in your logic,
-and lookup associated objects in the dictionary.
+`Dictionary<int, object[]>` (32-bit) or `Dictionary<long, object[]>` (64-bit),
+where the key stores a 3D tick mark hash. You can then sample points freely in
+your logic, and lookup associated objects in the dictionary.
 
 **Note:**  
 32-bit can support up to a _1,024³_ grid.  
