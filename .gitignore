@@ -4,7 +4,7 @@
 /[Tt]emp/
 /[Oo]bj/
 sysinfo.txt
-
+*.meta
 
 # Unity VSCode Plugin (https://www.assetstore.unity3d.com/en/#!/content/45320)
 # ------------------------------------------------------------------------------
